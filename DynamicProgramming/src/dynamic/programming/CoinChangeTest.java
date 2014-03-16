@@ -20,17 +20,17 @@ public class CoinChangeTest {
 	}
 
 	@Test
-	public void test1() {
+	public void testCoinChange_1() {
 		int f = coinChange.findCombinationsCount(11, new int[]{1,5,10,25,50});
 		assertEquals("Wrong combination!", 4, f);
 	}
 	@Test
-	public void test2() {
+	public void testCoinChange_2() {
 		int f = coinChange.findCombinationsCount(26, new int[]{1,5,10,25,50});
 		assertEquals("Wrong combination!", 13, f);
 	}
 	@Test
-	public void test3() {
+	public void testCoinChange_3() {
 		int f = coinChange.findCombinationsCount(7489, new int[]{1,5,10,25,50});
 		assertEquals("Wrong combination!", 2146113925, f);
 	}

@@ -20,22 +20,22 @@ public class KnapsackTest {
 	}
 
 	@Test
-	public void test() {
+	public void testKnapsackProblem_1() {
 		int knapsack = ks.knapsack(new int[]{2,7,1,14}, new int[]{2,5,7,3},  16);
 		assertEquals(22, knapsack);
 	}
 	@Test
-	public void test2() {
+	public void testKnapsackProblem_2() {
 		int knapsack = ks.knapsack(new int[]{0,2,3,8}, new int[]{0,3,5,7},  20);
 		assertEquals(13, knapsack);
 	}
 	@Test
-	public void test3() {
+	public void testKnapsackProblem_3() {
 		int knapsack = ks.knapsack(new int[]{0,3,4,4,1,7}, new int[]{0,3,2,5,2,6},  5);
 		assertEquals(7, knapsack);
 	}
 	@Test
-	public void test4() {
+	public void testKnapsackProblem_4() {
 		int knapsack = ks.knapsack(new int[]{0,3,4,4,1,7}, new int[]{0,3,2,5,2,6},  10);
 		assertEquals(12, knapsack);
 	}

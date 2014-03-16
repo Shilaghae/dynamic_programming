@@ -1,5 +1,13 @@
 package dynamic.programming;
-
+/**
+ * 
+ * @author annadelprete
+ *Given two sequences of characters, print the length of the longest common subsequence of both sequences. For example, the longest common subsequence of the following two sequences:
+ *abcdgh
+ *dfhr
+ *is adh of length 3.
+ *Input consists of pairs of lines. The first line of a pair contains the first string and the second line contains the second string.
+ */
 public class LongestCommonSubstring {
 
 

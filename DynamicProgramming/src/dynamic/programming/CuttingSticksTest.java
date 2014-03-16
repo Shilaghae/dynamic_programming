@@ -20,7 +20,7 @@ public class CuttingSticksTest {
 	}
 
 	@Test
-	public void test() {
+	public void testCuttingSticks() {
 		int[] s = cutting.cuttingSticks(new int[]{0,1,5,8,9,10,17,17,20,24,30}, 10);
 		assertArrayEquals(new int[]{0,1,2,3,2,2,6,1,2,3,10}, s);
 	}
