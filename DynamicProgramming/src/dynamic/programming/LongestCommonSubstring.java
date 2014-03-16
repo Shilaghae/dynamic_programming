@@ -6,7 +6,7 @@ package dynamic.programming;
  *abcdgh
  *dfhr
  *is adh of length 3.
- *Input consists of pairs of lines. The first line of a pair contains the first string and the second line contains the second string.
+ *Input consists of the two strings.
  */
 public class LongestCommonSubstring {
 
